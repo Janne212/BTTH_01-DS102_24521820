@@ -19,5 +19,6 @@ Bài làm được chia làm 2 file:
 1. Cào dữ liệu từ API: `api_crawler_unsplash.py`
 2. Phân tích cơ bản bộ dữ liệu sau khi cào (chưa tiền xử lý): `EDA.ipynb`
 3. Dữ liệu metadata của ảnh: `unsplash_metadata.csv`
+4. Dữ liệu hình ảnh được lưu tại máy tính cá nhân với tên ảnh giống cột `image_id` tương ứng
 - Thực hiện cào dữ liệu hình ảnh trên Unsplash
 - Đánh giá: quy mô bộ dữ liệu chưa lớn (định hướng cào thêm để đạt tới bộ dữ liệu 10000 ảnh), chủ đề của ảnh còn giao thoa (chọn dựa trên cảm tính người làm), EDA cơ bản chỉ đánh giá 3 yếu tố: khuyết dữ liệu, phân phối của các cột: 'likes', 'width', 'height' để đánh giá chất lượng ảnh và mức độ ảnh hưởng của ảnh (các yếu tố khác sẽ được EDA khi có một bài toán cụ thể để hướng tới)
